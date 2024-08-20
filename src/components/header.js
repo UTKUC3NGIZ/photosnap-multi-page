@@ -21,7 +21,7 @@ function Header() {
     <header className="bg-white">
       <nav
         aria-label="Global"
-        className="mx-auto flex items-center justify-between px-6 py-7"
+        className="mx-auto flex items-center justify-between px-6 py-7 md:py-4 md:px-10"
       >
         <div className="flex md:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
@@ -44,15 +44,18 @@ function Header() {
             <a
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
+              className="text-xs font-bold leading-6 text-gray-900"
             >
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden md:flex md:flex-1 md:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
+          <a
+            href="#"
+            className="block px-6 py-3 text-xs font-bold leading-7 hover:bg-gray-50 text-center bg-black text-white tracking-[2.5px]"
+          >
+            GET AN INVITE
           </a>
         </div>
       </nav>
@@ -62,7 +65,7 @@ function Header() {
         className="md:hidden"
       >
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full h-fit overflow-y-auto bg-white sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full h-fit overflow-y-auto bg-white  sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between px-6 py-7">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">PHOTOSNAP</span>
