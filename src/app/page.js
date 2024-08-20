@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white items-center justify-between p-24">
       <Button color={"black"} />
-      <ArrowButton />
+      <ArrowButton color={"black"} />
     </main>
   );
 }
