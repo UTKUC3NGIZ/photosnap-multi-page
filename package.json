@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^0.0.0-insiders.a08be96",
     "next": "14.2.5",
     "photosnap-multi-page": "file:",
     "react": "^18",
