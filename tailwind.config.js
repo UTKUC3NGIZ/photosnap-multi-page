@@ -35,9 +35,6 @@ module.exports = {
         h4: ["12px", { lineHeight: "16px" }],
         body: ["15px", { lineHeight: "25px" }],
       },
-      letterSpacing: {
-        tight: "-0.05em",
-      },
     },
   },
   plugins: [],

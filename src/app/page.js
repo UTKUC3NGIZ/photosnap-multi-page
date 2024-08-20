@@ -1,13 +1,11 @@
 import Image from "next/image";
-
+import Button from "@/components/buttons/button";
+import ArrowButton from "@/components/buttons/arrowButton";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1>DM SANS BOLD</h1>
-      <h2>DM SANS BOLD</h2>
-      <h3>DM SANS BOLD</h3>
-      <h4>DM SANS BOLD</h4>
-      <p>DM SANS BOLD</p>
+    <main className="flex min-h-screen flex-col bg-white items-center justify-between p-24">
+      <Button color={"black"} />
+      <ArrowButton />
     </main>
   );
 }
