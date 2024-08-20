@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,13 +18,53 @@
 }
 
 body {
+  font-family: 'DM Sans', sans-serif;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+a,
+li,
+td,
+th,
+label,
+input,
+textarea,
+select,
+button,
+div {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1,
+h2 {
+  @apply text-h1-h2 font-bold tracking-tight;
+}
+
+h2 {
+  @apply text-h2 font-bold;
+}
+
+h3 {
+  @apply text-h3 font-bold;
+}
+
+h4 {
+  @apply text-h4 font-bold uppercase tracking-tight;
+}
+
+p {
+  @apply text-body font-normal;
 }
 
 @layer utilities {
