@@ -26,7 +26,7 @@ function Header() {
         <div className="flex md:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <Logo />
+            <Logo className="text-pureBlack" />
           </a>
         </div>
         <div className="flex md:hidden">
@@ -69,7 +69,7 @@ function Header() {
           <div className="flex items-center justify-between px-6 py-7">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">PHOTOSNAP</span>
-              <Logo />
+              <Logo className="text-pureBlack" />
             </a>
             <button
               type="button"
