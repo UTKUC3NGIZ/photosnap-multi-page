@@ -11,11 +11,11 @@ import ArrowButton from "@/components/buttons/arrowButton";
 function footer() {
   return (
     <footer className="bg-pureBlack py-14 px-8 grid grid-cols-1 justify-items-center md:flex md:flex-row md:justify-between">
-      <div className="flex flex-col">
-        <Link href={""} className="pb-8 block md:order-1">
+      <div className="flex flex-col xl:grid xl:grid-cols-2">
+        <Link href={""} className="pb-8 block md:order-1 xl:pb-0">
           <Logo className="text-pureWhite" />
         </Link>
-        <div className="flex flex-row gap-3 pb-12 justify-center md:order-3 md:justify-start">
+        <div className="flex flex-row gap-3 pb-12 justify-center md:order-3 md:justify-start xl:-mt-6">
           <Link href={""}>
             <Facebook className="text-pureWhite" />
           </Link>
@@ -32,7 +32,7 @@ function footer() {
             <Instagram className="text-pureWhite" />
           </Link>
         </div>
-        <ul className="text-center gap-5 flex flex-col pb-32 text-xs font-bold tracking-[2px] uppercase md:flex-row md:order-2 md:pb-[72px]">
+        <ul className="text-center gap-5 flex flex-col pb-32 text-xs font-bold tracking-[2px] uppercase md:flex-row md:order-2 md:pb-[72px] xl:flex-col xl:pb-0">
           <li>Home</li>
           <li>Stories</li>
           <li>Features</li>
