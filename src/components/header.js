@@ -13,7 +13,7 @@ const navigation = [
 ];
 
 function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const screenSize = useScreenSize();
 

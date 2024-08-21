@@ -13,7 +13,7 @@ function arrowButton({ color }) {
         className={`uppercase font-bold text-xs tracking-[2px] hover:underline flex flex-row items-center gap-4
              ${buttonStyle[color]}`}
       >
-        Button 1
+        GET AN INVITE
         <MyIcon className={`${buttonStyle[color]}`} />
       </button>
       <div></div>
